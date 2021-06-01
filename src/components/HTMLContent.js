@@ -18,7 +18,7 @@ export const HTMLContent = ({
 	const [refItem, inView] = useInView({ threshold: 0 })
 	useEffect(() => {
 		inView && (document.body.style.background = bgColor)
-	}, [inView])
+	}, [inView, bgColor])
 
 	return (
 		<Section factor={1.5} offset={1}>
