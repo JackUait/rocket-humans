@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^7.1.2",
     "drei": "^1.5.3",
     "lerp": "^1.0.3",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-intersection-observer": "^8.28.5",
@@ -20,7 +19,8 @@
     "three": "^0.120.1"
   },
   "scripts": {
-    "dev": "react-scripts start"
+    "dev": "react-scripts start",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": "react-app"
