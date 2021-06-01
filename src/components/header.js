@@ -20,7 +20,13 @@ export default function Header() {
 							<a href="/">Хьюманс</a>
 						</li>
 						<li className="btn">
-							<a href="/">Дружить</a>
+							<a
+								rel="noopener noreferrer"
+								target="_blank"
+								href="https://t.me/gambardaryan"
+							>
+								Дружить
+							</a>
 						</li>
 					</ul>
 				</nav>
